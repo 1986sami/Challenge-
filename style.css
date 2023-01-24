@@ -46,7 +46,7 @@ header h1{
     margin-left: 300px;      
     border-radius: 24px;
     background: blue;
-    margin-top: 30px;
+    margin-top: 10px;
     transition: 1s all;
 
 
@@ -132,10 +132,10 @@ input{
     width: 205px;
     height: 38px;   
     color:white;
-    margin-left: 100px;      
+    margin-left: 300px;      
     border-radius: 24px;
     background: blue;
-    margin-top: 10px;
+    margin-top: 40px;
     transition: 1s all;
 }
 .botonCopiar:hover{
