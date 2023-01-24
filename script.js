@@ -8,18 +8,13 @@ function encriptar(){
     var textoEncriptado=textoEncriptado.replace(/a/img,"ai");
     var textoEncriptado=textoEncriptado.replace(/u/img,"ufat");
   
-    
+   
     document.getElementById("textoDesencriptado").innerHTML = textoEncriptado ;
-    
-    document.getElementById("botonCopiar").style.display="show"; 
-    document.getElementById("botonCopiar").style.display="inherit";/*muestra el boton al darle click */  
     document.getElementById("imagen").style.display="none"; 
-    
-     
-    document.getElementById("subtitulo").style.display="none";
-    
-
-  }
+      
+    document.getElementById("botonCopiar").style.display="show";    
+    document.getElementById("botonCopiar").style.display="inherit";/*muestra el boton al darle click */     
+    }
   function desencriptar(){
  
     var frase=document.getElementById("textoEncriptado").value.toLowerCase(); /*esta value es para que convierta la letra minuscula*/
@@ -30,6 +25,7 @@ function encriptar(){
     var textoEncriptado=textoEncriptado.replace(/ufat/img,"u");
   
     document.getElementById("textoDesencriptado").innerHTML = textoEncriptado ;  
+
     
   }
 

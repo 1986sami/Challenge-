@@ -46,7 +46,7 @@ header h1{
     margin-left: 300px;      
     border-radius: 24px;
     background: blue;
-    margin-top: 10px;
+    margin-top: 40px;
     transition: 1s all;
 
 
@@ -79,26 +79,29 @@ header h1{
 }
 textarea{
     width: 100%;
-    height: 300px;
-    text-align: center;  
+    height: 100px;
+    text-align: center; 
+    
+  
     resize: none;
-    font-size: 25px;
+    font-size: 50px;
 
 
 }
 
 .texto-resultado{
     width: 50%;
-    margin-left: 100px;
-    margin-top: 30px;
+    height: 90px;
+    margin-left: 50px;
+    margin-top: 60px;
     position: relative;
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     justify-content: center;
     box-shadow: 10px 20px 10px 10px blue;/*esta propiedad es para ubicar la sombra eje horizontal,verticaly color*/
     margin-left: 300px;
 }
-.imagen{
+/*.imagen{
     position: absolute;
     display: flex;
     align-items: center;
@@ -113,9 +116,10 @@ textarea{
     justify-content: center;
     flex-direction: column;
 
-}
+}*/
 input{
     width: 60%;
+    font-size: 50px;
     height: 50%;
     resize:none;
     display:block;
@@ -159,7 +163,7 @@ footer{
     padding-top: 10px;
    
     box-sizing: border-box;
-    margin-top: 50px;
+    margin-top: 120px;
 }
 @media screen  and (max-width:480px){
     .encabezado{
@@ -181,8 +185,9 @@ footer{
         width: 90%;
     }
     textarea{
-        width: 100%;
-        height: 400px;
+        width: 200%;
+        height: 100px;
+        font-size: 30px;
     }
   
     .textEncriptado{
@@ -198,11 +203,16 @@ footer{
      
         
     }
+    input{
+        width: 50%;
+        height: 20px;
+        font-size: 30px;
+    }
     .botonCopiar{
         margin-top: 50px;
     }
     footer{
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
 }
